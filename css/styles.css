@@ -17,7 +17,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #f4f4fd;
+  background: white;
   color: #434455;
 }
 
@@ -56,6 +56,14 @@ button {
 .header-menu-item {
 }
 
+.header-menu-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .header-contacts {
   font-style: normal;
 }
@@ -71,7 +79,7 @@ button {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
 }
 
 .hero {
@@ -96,13 +104,14 @@ button {
   color: white;
 }
 
-.header-contacts-link:focus, .header-contacts-link:hover {
-  color: green;
+.header-contacts-link:focus,
+.header-contacts-link:hover {
+  color: #404bbf;
 }
 
-.hero-btn-blue:hover, .hero-btn-blue:focus {
-  color: orchid;
-
+.hero-btn-blue:hover,
+.hero-btn-blue:focus {
+  color: #404bbf;
 }
 
 .features {
@@ -150,8 +159,10 @@ button {
 .team-cards-item {
   background-color: white;
 }
+
 .team-cards-img {
 }
+
 .team-cards-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -160,6 +171,7 @@ button {
   text-align: center;
   color: #2e2f42;
 }
+
 .team-cards-description {
   font-weight: 400;
   font-size: 16px;
@@ -168,8 +180,10 @@ button {
   text-align: center;
   color: #434455;
 }
+
 .portfolio {
 }
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -198,10 +212,9 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.footer-menu {
-  background: var(--navy-blue);
-}
+
 .footer {
+  background: var(--navy-blue);
 }
 .footer-menu {
 }
