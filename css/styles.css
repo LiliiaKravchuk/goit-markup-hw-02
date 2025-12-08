@@ -62,11 +62,11 @@ button {
 }
 
 .header-menu-link {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
+  color: #2e2f42;
 }
 
 .header-contacts {
@@ -84,7 +84,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
 }
 
 .hero {
@@ -152,7 +151,7 @@ button {
 .team-cards-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -171,7 +170,7 @@ button {
 .team-cards-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -192,17 +191,21 @@ button {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
+
 .portfolio-list {
 }
+
 .portfolio-item {
 }
+
 .portfolio-img {
 }
+
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -210,6 +213,7 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .portfolio-description {
   font-weight: 400;
   font-size: 16px;
@@ -221,9 +225,12 @@ button {
 .footer {
   background: var(--navy-blue);
 }
+
 .footer-menu {
 }
+
 .footer-title {
+  font-family: var(--second-family);
   color: var(--cloud);
 }
 .footer-colored-title {
@@ -231,4 +238,16 @@ button {
 }
 .footer-subtitle {
   color: var(--cloud);
+  /* color: #f4f4fd; */
+   width: 264px;
+  /* height: 72px; */
+  margin: 16px 0 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-align: left;
 }
