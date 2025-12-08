@@ -40,7 +40,7 @@ button {
   font-family: var(--second-family), sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -56,12 +56,17 @@ button {
 .header-menu-item {
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
 .header-menu-link {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+
 }
 
 .header-contacts {
@@ -77,9 +82,9 @@ button {
 .header-contacts-link {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+
 }
 
 .hero {
@@ -89,7 +94,7 @@ button {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -98,7 +103,7 @@ button {
 .hero-btn-blue {
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: white;
@@ -111,7 +116,7 @@ button {
 
 .hero-btn-blue:hover,
 .hero-btn-blue:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .features {
@@ -126,7 +131,7 @@ button {
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -135,7 +140,7 @@ button {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -147,7 +152,7 @@ button {
 .team-cards-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -166,7 +171,7 @@ button {
 .team-cards-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -175,7 +180,7 @@ button {
 .team-cards-description {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
@@ -187,7 +192,7 @@ button {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -201,14 +206,14 @@ button {
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .portfolio-description {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
