@@ -170,7 +170,7 @@ button {
 .team-cards-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.11;
+  line-height: 1.12;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -248,6 +248,6 @@ button {
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   text-align: left;
 }
