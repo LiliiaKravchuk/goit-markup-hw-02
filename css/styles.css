@@ -84,6 +84,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .hero {
@@ -170,7 +171,7 @@ button {
 .team-cards-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.12;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -230,18 +231,26 @@ button {
 }
 
 .footer-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgb(0, 0, 128);
+  width: 156px;
+  background: #fff;
+  border-bottom: 1px solid #e7e9fc;
+  margin-right: 76px;
   font-family: var(--second-family);
   color: var(--cloud);
 }
+
 .footer-colored-title {
   color: var(--iris);
 }
+
 .footer-subtitle {
   color: var(--cloud);
-  /* color: #f4f4fd; */
-   width: 264px;
-  /* height: 72px; */
-  margin: 16px 0 0;
   font-family: Roboto;
   font-size: 16px;
   font-weight: normal;
