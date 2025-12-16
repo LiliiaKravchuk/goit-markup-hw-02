@@ -237,10 +237,10 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: rgb(0, 0, 128);
-  width: 156px;
-  background: #fff;
-  border-bottom: 1px solid #e7e9fc;
-  margin-right: 76px;
+  /* width: 156px; */
+  /* background: #fff; */
+  /* border-bottom: 1px solid #e7e9fc; */
+  /* margin-right: 76px; */
   font-family: var(--second-family);
   color: var(--cloud);
 }
